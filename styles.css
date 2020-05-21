@@ -1,0 +1,18 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    height: 100%;
+}
+.box{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+.inside-box{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    border: 5px solid red;
+    inline
+}
