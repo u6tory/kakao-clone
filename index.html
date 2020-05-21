@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c7cdf2cf20.js" crossorigin="anonymous"></script>
     <title>kakao-clone</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
@@ -31,31 +32,36 @@
                 <i class="fas fa-comment"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog fa-5x" ></i>
+                <a href="settings.html"><i class="fas fa-cog" ></i></a>
             </span>
         </div>
     </header>
     <main class="chats">
         <!-- 채팅리스트 객체의 나열이라서 ul-->
         <ul class="chats_list"> 
-            <li class="chats__chat">
+            <li class="chats__chat chat">
                 <a href="chat.html">
                 <!-- chat은 낱개기 때문에 chat으로  -->
-                <div class="chat__column">
-                    <!-- g-avatar means global-avatar -->
-                    <img class="chat__avatar g-avatar" src="img/avatar.jpg" alt="avatar">
-                    <div class="chat__content">
-                        <span class="chat__username">
-                            Lynn
-                        </span>
-                        <span class="chat__preview">
-                            Going Home
-                        </span>
+                    <div class="chats__chat friend">
+                        <div class="friend__column">
+                            <img src="img/avatar.jpg" alt="" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name"> 
+                                    Lynn
+                                </span>
+                                <span class="friend__bottom-text">
+                                    Going home!
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend__column">
+                            <div class="friend__now-listening">
+                                <span class="chat__timestamp">
+                                    March 8
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="chat__column">
-                    <span class="chat__timstamp">Yesterday</span>
-                </div>
                 </a>
             </li>
         </ul>
@@ -66,7 +72,9 @@
                 <a href="friends.html" class="nav__list-link"><i class="far fa-user"></i></a>
             </li>
             <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link"><i class="fas fa-comment"></i></a>
+                <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge"> 8 </div>
+                    <i class="fas fa-comment"></i></a>                    
             </li>
             <li class="nav__list-item">
                 <a href="find.html" class="nav__list-link"><i class="fas fa-search"></i></a>
