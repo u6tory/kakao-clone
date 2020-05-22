@@ -20,12 +20,12 @@
 
 .find .header-btn__title{
     margin-top: 10px;
-    color: rgb(22, 22, 22));
+    color: rgb(22, 22, 22);
     font-size: 13px;
 }
 
-.find .find__header-btn span{
-    display: block;
+.find .header-btn__icon{
+    font-size: 12px;
 }
 
 .find .find__recommended .find__title{

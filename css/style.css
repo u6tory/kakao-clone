@@ -6,6 +6,8 @@
 @import "friend.css";
 @import "friends.css";
 @import "find.css";
+@import "more.css";
+@import "chat.css";
 
 body{
     background-color: white;
@@ -19,7 +21,14 @@ a{
     text-decoration: none;
 }
 
-
 * {
     box-sizing: border-box;
+}
+
+.header-wrapper{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
 }
