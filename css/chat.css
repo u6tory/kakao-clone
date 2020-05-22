@@ -81,42 +81,61 @@
 }
 
 
-.chat__write{
+.chat__write-container{
     background-color: #fcfcfc;
     position: fixed;
-    width: 90%;
     left:0px;
     right: 0px;
+    bottom: 0px;
     margin: 0 auto;
-    bottom:10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
-    border-radius: 20px;
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025)
 }
 
 .chat__write{
     bottom:0px;
     width:100%;
     border-radius: 0;
+    padding: 10px 60px;
+    border: none;
+    font-size: 14px;
+}
+
+.chat__icon-left{
+    position: absolute;
+}
+
+.chat__icon-right{
+    position: absolute;
+    right:10px;
+    
+}
+
+.chat__write:focus{
+    outline: none;
+}
+
+.chat__icon{
+    font-size: 22px;
+    transition: opacity 1s ease-in-out;
+}
+
+.chat__write:focus ~ .chat__icon{
+    opacity: 0;
 }
 
 .chat__write .chat__write-column:nth-child(2){
     width: 80%;
 }
 
-.chat__write .chat__write-column input {
+/* .chat__write .chat__write-column input {
     padding: 5px 10px;
     width: 100%;
-    border: none;
-    font-size: 14px;
-}
+} */
 
-.chat__write-column input:focus{
-    outline: none;
-}
+
 
 .chat__write:focus ~ .chat__icon{
     display: none;
