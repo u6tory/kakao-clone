@@ -1,14 +1,16 @@
 .status-bar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    opacity: #656565;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 5px 20px;
+  background-color: #00714b;
+  font-weight: 200;
 }
 
 .status-bar i {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .status-bar .status-bar__battery-level {
-    margin-left: 5px
+  margin-left: 5px;
 }

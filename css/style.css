@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "status-bar.css";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100,200,300,400;600;700&display=swap");
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
@@ -8,27 +8,62 @@
 @import "find.css";
 @import "more.css";
 @import "chat.css";
+@import "settings.css";
 
-body{
-    background-color: white;
-    padding: 10px 20px;
-    color: #020202;
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  background-color: white;
+  /* padding: 10px 20px; */
+  padding: 0px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-a{
-    color: inherit; /* 링크 들어갔던 페이지에 보라색으로 보이지 않게 하기 위해*/
-    text-decoration: none;
+a {
+  color: inherit; /* 링크 들어갔던 페이지에 보라색으로 보이지 않게 하기 위해*/
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.header-wrapper{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: #fff;
-    padding-top: 10px;
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+li.chats__chat {
+  padding: 15px;
+  background-color: #a7cdc0;
+  border: 1px solid rgb(130, 195, 173);
+}
+
+.bigScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fce006;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0px 20px;
+  display: none;
+  z-index: 4;
+}
+
+@media screen and (min-width: 550px) {
+  .bigScreen {
+    display: flex;
+  }
 }

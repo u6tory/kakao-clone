@@ -1,35 +1,36 @@
-.friends .friends__header{
-    border-bottom: 1px solid #f7f7f7;
-    margin: 10px 0px;
+.friends {
+  padding: 0px 10px;
 }
 
-.friends .friends__plus{
-    border-bottom: 1px solid #f7f7f7;
-    margin: 10px 0px;
+.friends .friends__header {
+  border-bottom: 1px solid #f7f7f7;
+  margin: 10px 0px;
 }
 
-.friends__title{
-    font-size: 14px;
-    opacity: 0.6;
-    padding: 5px 0px;
+.friends .friends__plus {
+  border-bottom: 1px solid #f7f7f7;
+  margin: 10px 0px;
 }
 
-.friends__plus .friend__content{
-    font-weight: 700;
-    margin-left: 10px;
+.friends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  padding: 5px 0px;
 }
 
-.friend .friend__now-listening{
-    /* background-color: red; */
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1.5px solid #5aad77;
-    font-size: 14px;
-    font-weight: 400;
-    color: #808080;
-    letter-spacing: 0.05em;
+.friends__plus .friend__content {
+  font-weight: 700;
+  margin-left: 10px;
 }
 
-.friend__now-listening .fa-play{
-    color: green;
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.friend__now-listening .fa-play {
+  color: green;
 }
