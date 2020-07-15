@@ -1,35 +1,37 @@
-nav{
-    background-color: #fcfcfc;
-    position: fixed; /*element에서 떼서 고정시켜야 하므로, 반드시 height or width 요소를 넣어주어야 한다.*/
-    width: 100%;
-    bottom: 0px;
-    left:0px;
-    padding: 20px 50px;
-    border-top: 1px solid #fafafa;
-    box-sizing: border-box;
+nav {
+  background-color: #00714b;
+  position: absolute; /*element에서 떼서 고정시켜야 하므로, 반드시 height or width 요소를 넣어주어야 한다.*/
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  padding: 25px 30px;
+  box-sizing: border-box;
+  color: white;
 }
 
-nav .nav__list{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
+nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  height: 20px;
 }
 
-.nav .nav__list-link{
-    position: relative;
+.nav .nav__list-link {
+  position: relative;
 }
 
-.nav .nav__badge{
-    position: absolute;
-    top:-10px;
-    right: -10px;
-    font-size: 12px;
-    color:white;
-    background-color: #dc5d46;
-    width: 20px;
-    height: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.nav .nav__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 12px;
+  color: white;
+  background-color: #dc5d46;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }

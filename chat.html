@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Chat | kakao-clone</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="chats-body">
     <div class="header-wrapper">
         <div class="status-bar">
@@ -28,7 +30,7 @@
                         <i class="fas fa-arrow-left"></i>
                     </a>
                 </div>
-                <h1 class="header__title">Best Friend</h1>
+                <h1 class="header__title">Lynn</h1>
             </div>
             <div class="header__header-column">
                 <span class="header__icon">
@@ -50,7 +52,7 @@
                 <div class="message__content">
                     <span class="message__author">Lynn</span>
                     <span class="message__bubble">
-                        Congrats I love you! aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        Congrats I love you! aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaLINE BREAK TEST!
                     </span>
                 </div>
                 <span class="message__timestamp"></span>
@@ -85,24 +87,70 @@
                     </span>
                 </div>
             </li>
+            <span class="chat__timestamp">
+                Friday, June 12, 2019
+            </span>
+            <li class="incoming-message message">
+                <img src="img/green_avatar.png" class="g-avatar" alt="">
+                <div class="message__content">
+                    <span class="message__author">Lynn</span>
+                    <span class="message__bubble">
+                        Are still on HTML CSS?
+                    </span>
+                </div>
+                <span class="message__timestamp"></span>
+            </li>
+            <li class="outgoing-message message">
+                <span class="message__timestamp"></span>
+                <div class="message__content">
+                    <span class="message__author">
+                        <span class="message__bubble">
+                            No~ I already finished HTML, CSS and Wetube! 😁
+                        </span>
+                    </span>
+                </div>
+            </li>
+            <li class="incoming-message message">
+                <img src="img/green_avatar.png" class="g-avatar" alt="">
+                <div class="message__content">
+                    <span class="message__author">Lynn</span>
+                    <span class="message__bubble">
+                        Congrats!
+                    </span>
+                </div>
+                <span class="message__timestamp"></span>
+            </li>
+            <li class="outgoing-message message">
+                <span class="message__timestamp"></span>
+                <div class="message__content">
+                    <span class="message__author">
+                        <span class="message__bubble">
+                            Thanks for your challenge
+                        </span>
+                    </span>
+                </div>
+            </li>
         </ul>
     </main>
-    <div class="chat__write">
-        <div class="chat__write-column chat__icon">
+    <div class="chat__write--container">
+        <input type="text" class="chat__write" placeholder="Send message" class="chat__write-input" />
+
+        <div class="chat__icon-left chat__icon">
             <i class="far fa-plus-square"></i>
         </div>
-        <div class="chat__write-column">
-            <input type="text" placeholder="Send message" class="chat__write-input">
-            
-        </div>
-        <div class="chat__write-column">
-            <span class="chat__write__icon chat__icon">
+
+        <div class="chat__icon-right chat__icon">
+            <span class="chat__write-icon">
                 <i class="far fa-smile-wink"></i>
             </span>
-            <span class="chat__write__icon chat__icon">
+            <span class="chat__write-icon">
                 <i class="fas fa-microphone"></i>
             </span>
         </div>
+        <div class="mobile-keyboard">
+            <img src="img/mobile_keyboard.png">
+        </div>
     </div>
 </body>
+
 </html>
