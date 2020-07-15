@@ -101,6 +101,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  color: white;
 }
 
 .chat__icon-left {
@@ -122,15 +123,24 @@
   width: 100%;
   border: none;
   font-size: 14px;
+  background-color: #00714b;
   transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out,
-    border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
+    border-radius 0.5s ease-in-out, transform 0.5s ease-in-out,
+    background-color 0.5s ease-in-out;
+}
+
+input.chat__write::placeholder {
+  color: white;
 }
 
 .chat__write:focus {
   outline: none;
   width: 100%;
-  transform: translateY(-210px);
+  /* transform: translateY(-270px); */
+  transform: translateY(-57vw);
   border-radius: 40px;
+  background-color: white;
+  color: black;
 }
 
 .chat__icon {

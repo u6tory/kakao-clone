@@ -29,6 +29,11 @@ body {
   background-position: center;
 }
 
+.fullscreen .status-bar {
+  background-color: transparent;
+  color: black;
+}
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -47,7 +52,7 @@ body {
 }
 
 .profile__name {
-  color: rgb(208, 143, 81);
+  color: #00714b;
   font-weight: 600;
   margin: 5px;
 }
@@ -69,7 +74,7 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .profile__buttons button:nth-child(2) {
-  background-color: rgb(208, 143, 81);
+  background-color: #00714b;
   color: white;
 }
 
