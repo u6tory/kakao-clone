@@ -1,3 +1,12 @@
+@keyframes navbar-show {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
 nav {
   background-color: #00714b;
   position: absolute; /*element에서 떼서 고정시켜야 하므로, 반드시 height or width 요소를 넣어주어야 한다.*/
@@ -7,6 +16,7 @@ nav {
   padding: 25px 30px;
   box-sizing: border-box;
   color: white;
+  animation: navbar-show 0.5s ease-in-out forwards;
 }
 
 nav .nav__list {

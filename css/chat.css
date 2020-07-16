@@ -1,6 +1,17 @@
+@keyframes chat-intro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .chat-screen {
   background-image: url("../img/bg_chat.png");
   min-height: 100vh; /*viewport(=screen) height를 100%*/
+  animation: chat-intro 0.5s ease-in-out;
+  padding-top: 15px;
 }
 
 .chats-body {
@@ -10,7 +21,7 @@
 
 .chats-body .header,
 .chats-body .status-bar {
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 
 .chat-screen .chat__messages {
@@ -178,8 +189,18 @@ input.chat__write::placeholder {
   opacity: 1;
 }
 
+@keyframes headerwrap {
+  from {
+    transform: translateY(-92px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .chats-body .header-wrapper {
   padding-top: 0px;
+  animation: headerwrap 0.5s ease-in-out;
 }
 
 .chats-body .header {
