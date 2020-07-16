@@ -42,6 +42,13 @@ li.chats__chat {
   border: 1px solid rgb(130, 195, 173);
 }
 
+<<<<<<< HEAD
+=======
+li.chats__chat:nth-child(2) {
+  background-color: #dff1eb;
+}
+
+>>>>>>> gh-pages
 .bigScreen {
   position: fixed;
   width: 100%;

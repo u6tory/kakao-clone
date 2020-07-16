@@ -12,6 +12,27 @@ body {
   font-size: 24px;
 }
 
+<<<<<<< HEAD
+=======
+@keyframes profile-bg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes profile-contents {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+>>>>>>> gh-pages
 .fullscreen {
   width: 100%;
   height: 100%;
@@ -27,6 +48,15 @@ body {
     url("https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/106496800_695882317656921_4097281965339972195_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=fsajDcbBEnIAX-XY984&oh=541614b85fced37cc299066a95df9015&oe=5F333A0D");
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
+=======
+  animation: profile-bg 0.5s ease-in-out;
+}
+
+.fullscreen .status-bar {
+  background-color: transparent;
+  color: black;
+>>>>>>> gh-pages
 }
 
 .profile {
@@ -35,6 +65,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 80%;
+<<<<<<< HEAD
+=======
+  animation: profile-contents 0.5s ease-in-out;
+>>>>>>> gh-pages
 }
 
 .profile__photo {
@@ -47,7 +81,11 @@ body {
 }
 
 .profile__name {
+<<<<<<< HEAD
   color: rgb(208, 143, 81);
+=======
+  color: #00714b;
+>>>>>>> gh-pages
   font-weight: 600;
   margin: 5px;
 }
@@ -69,7 +107,11 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .profile__buttons button:nth-child(2) {
+<<<<<<< HEAD
   background-color: rgb(208, 143, 81);
+=======
+  background-color: #00714b;
+>>>>>>> gh-pages
   color: white;
 }
 
